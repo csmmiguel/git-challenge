@@ -1,0 +1,94 @@
+body {
+  background: linear-gradient(
+    73.2deg,
+    rgb(248, 205, 205) 23.2%,
+    rgb(149, 170, 211) 77%
+  );
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+input:hover {
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+  cursor: text;
+}
+h1 {
+  padding: 3px;
+  font-family: "Nunito", sans-serif;
+}
+p,
+footer {
+  font-family: "Nunito", sans-serif;
+  color: #585858;
+}
+footer {
+  padding: 20px 0 0 0;
+  font-size: small;
+  text-align: center;
+}
+.container {
+  display: block;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 200px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 1em rgba(255, 255, 255, 0.5);
+}
+.search-input {
+  border: 1px transparent;
+  border-radius: 5px;
+  margin: 5px;
+  height: 40px;
+  width: 700px;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 15px;
+}
+.submit-button {
+  border: 1px solid #8594e4;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  height: 41px;
+  background: #8594e4;
+  color: aliceblue;
+  font-family: "Tenor Sans", sans-serif;
+}
+.submit-button:hover {
+  background: aliceblue;
+  color: #8594e4;
+  box-shadow: 0 0 1em aliceblue;
+  border: 1px solid #8594e4;
+  cursor: pointer;
+}
+.font-highlight {
+  color: #8594e4;
+  font-weight: bold;
+}
+.current-temperature-icon {
+  position: relative;
+  top: -8;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.current-temperature {
+  position: relative;
+  top: 40px;
+  right: 15px;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+}
+.current-temperature-unit {
+  position: relative;
+  top: -15px;
+  font-size: 28px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
